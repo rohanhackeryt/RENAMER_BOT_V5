@@ -27,19 +27,16 @@ Supports 4GB Files
 * LOG_CHANNEL - Channel Id Nedd Store Files Get Your channel id from Rose @MissRose_bot
 
 ## Commands
-
-* `/start` Start Messsage 
-
-* `/viewthumb` View Your Saved thumbnail
-
-* `/delthumb` Delete Your Thumbnail
-
-* `/about` About Bot 
-
-* `/broadcast` ```Admin Use Only``` Send Message To All Users
-
-* `/addpremium` ```Admin Use Only``` Add Users To Rename More Then 4Gb Files and Remove Time Limit 
-
+```
+start - Start Messsage
+refer - Refer to increase your limits
+myplan - Check Your plan Usage
+viewthumb - View Your Saved thumbnail
+delthumb - Delete Your Thumbnail
+about - About Bot
+broadcast - Admin Use Only Send Message To All Users
+addpremium - Admin Use Only
+```
 # 🚀 Deployment
 
 Deploy Your Own Bot ♥️ **Star 🌟 Fork 🍴 & Deploy**
