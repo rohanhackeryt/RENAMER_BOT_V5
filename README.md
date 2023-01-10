@@ -63,5 +63,5 @@ Deploy Your Own Bot ♥️ **Star 🌟 Fork 🍴 & Deploy**
 
 # Tutorial Video 
 
-<a href="https://youtu.be/03jQRyMVFCs"><img src="https://img.shields.io/badge/How%20To%20Deploy-blue.svg?logo=Youtube"></a>
-<a href="https://youtu.be/03jQRyMVFCs"><img src="https://img.shields.io/youtube/views/03jQRyMVFCs?style=social">
+<a href="https://youtu.be/76VIEgBFQXc"><img src="https://img.shields.io/badge/How%20To%20Deploy-blue.svg?logo=Youtube"></a>
+<a href="https://youtu.be/76VIEgBFQXc"><img src="https://img.shields.io/youtube/views/03jQRyMVFCs?style=social">
