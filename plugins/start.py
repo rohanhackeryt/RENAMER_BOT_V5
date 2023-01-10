@@ -60,7 +60,7 @@ async def start(client,message):
 	        except:
 	             return
 	    else:
-	         await client.send_message(id,"Congrats! You Won 100MB Upload limit")
+	         await client.send_message(id,"Congrats! You Won 2000MB Upload limit")
 	         _user_= find_one(int(id))
 	         limit = _user_["uploadlimit"]
 	         new_limit = limit + 104857600
