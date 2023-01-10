@@ -8,17 +8,9 @@ async def upgrade(bot,update):
 	Daily  Upload limit 2GB
 	Price 0
 	
-	**VIP 1 ** 
-	Daily  Upload  limit 10GB
-	Price Rs 50  🇮🇳/🌎 1$  per Month
-	
-	**VIP 2 **
-	Daily Upload limit 50GB
-	Price Rs 70  🇮🇳/🌎 0.97$  per Month
-	
-	**VIP3**
-	Daily Upload limit 100GB
-	Price Rs 140  🇮🇳/🌎 1.81$  per Month
+	**VIP** 
+	Daily  Upload  limit unlimited
+	Price Rs 100  🇮🇳/🌎 2$  per Month
 	
 	
 	Pay Using Upi I'd ```greymatter658@ybl```
@@ -26,7 +18,7 @@ async def upgrade(bot,update):
 	After Payment Send Screenshots Of 
         Payment To Admin"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/mrlokaman")], 
+        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/OTT_Zone_Admin")], 
         			[InlineKeyboardButton("PayPal 🌎",url = "https://www.paypal.me/mokshb658"),
         			InlineKeyboardButton("Other Methods",url = "https://t.me/GreyMatters_about/66")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
@@ -38,17 +30,9 @@ async def upgradecm(bot,message):
 	Daily  Upload limit 2GB
 	Price 0
 	
-	**VIP 1 ** 
-	Daily  Upload  limit 10GB
-	Price Rs 50  🇮🇳/🌎 1$  per Month
-	
-	**VIP 2 **
-	Daily Upload limit 50GB
-	Price Rs 70  🇮🇳/🌎 1.5$  per Month
-	
-	**VIP3**
-	Daily Upload limit 100GB
-	Price Rs 140  🇮🇳/🌎 2$  per Month
+	**VIP** 
+	Daily  Upload  limit unlimited 
+	Price Rs 100  🇮🇳/🌎 2$  per Month
 	
 	
 	Pay Using Upi I'd ```greymatter658@ybl```
@@ -56,7 +40,7 @@ async def upgradecm(bot,message):
 	After Payment Send Screenshots Of 
         Payment To Admin"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/mrlokaman")], 
+        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/OTT_Zone_Admin")], 
         			[InlineKeyboardButton("PayPal 🌎",url = "https://www.paypal.me/mokshb658"),
         			InlineKeyboardButton("Other Methods",url = "https://t.me/GreyMatters_about/66")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
