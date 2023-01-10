@@ -63,7 +63,7 @@ async def start(client,message):
 	         await client.send_message(id,"Congrats! You Won 2000MB Upload limit")
 	         _user_= find_one(int(id))
 	         limit = _user_["uploadlimit"]
-	         new_limit = limit + 104857600
+	         new_limit = limit + 2147483648
 	         uploadlimit(int(id),new_limit)
 	         await message.reply_text(text =f"""
 	Hello {wish} {message.from_user.first_name }
@@ -118,7 +118,7 @@ async def send_doc(client,message):
        conversion = datetime.timedelta(seconds=left)
        ltime = str(conversion)
        if left > 0:       	    
-       	await message.reply_text(f"```Sorry Dude I am not only for YOU \n Flood control is active so please wait for {ltime}```",reply_to_message_id = message.id)
+       	await message.reply_text(f"```Sorry Dude I am not only for YOU \n Flood control is active so please wait for {ltime}``` or buy premium /myplan",reply_to_message_id = message.id)
        else:
        		# Forward a single message
            		
